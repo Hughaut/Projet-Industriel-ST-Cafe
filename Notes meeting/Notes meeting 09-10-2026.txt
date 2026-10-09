@@ -1,0 +1,32 @@
+matériels à disposition :
+- STM32 Nucleo avec un partie radio
+- Sensor avec un protocole I2C
+- Raspberry pi pour le server avec dongle Zigbee
+
+Lien board :
+https://estore.st.com/en/nucleo-wba65ri-cpn.html?s_kwcid=AL!18821!3!775289443637!e!!g!!nucleo-wba65ri&ecmp=tt47996_gl_ps_jan2026&aw_kw=nucleo-wba65ri&aw_m=e&aw_c=22403042634&aw_tg=kwd-2443700568151&aw_gclid=CjwKCAjw_pzWBhAkEiwAwDCi1aTEE7n_HSnWXgpOesdbJd5t8jy6o3F3jiW3ksUi9oEXXKJxbUHhkhoCxOgQAvD_BwE&gad_source=1&gad_campaignid=22403042634&gbraid=0AAAAADmP1XQYlm5KTqbzFfP5DbnXzalBT&gclid=CjwKCAjw_pzWBhAkEiwAwDCi1aTEE7n_HSnWXgpOesdbJd5t8jy6o3F3jiW3ksUi9oEXXKJxbUHhkhoCxOgQAvD_BwE
+
+Lien sensor :
+https://fr.farnell.com/dfrobot/kit0176/kit-de-capteur-de-poids-carte/dp/3879703
+
+Recommandation : se retrouver le vendredi matin pour travailler ensemble et en présentiel (demander accès à une salle)
+
+Récap du travail de la semaine et ou visio si besoin, si visio plutôt à 11h30 pour nous aider sur les problèmes du jour
+
+
+
+Environnement de travail possible : VS Code et/ou Cube IDE
+
+Pour le début du projet :
+- Tirer un package logiciel wba, Zigbee
+- Regarder doc capteur et commencer à coder un driver etc
+- Dans un 2ème temps commencer à pense à l'algo de détection de café et à comment régler les paramètres (poids sachets etc)
+- Créer un GitHub
+
+Pour la répartition du travail pourquoi pas commencer par tous faire ensemble et une fois que le sujet et claire choisir qui fait quoi
+
+Bonnes habitudes : prendre des notes en meeting
+
+Pour la fin du projet laisser la doc utilisée et le rapport de projet et faire une présentation de projet à ST
+
+			
