@@ -1,0 +1,13 @@
+!SESSION 2026-10-15 17:01:29.878 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  C:\Users\hugoa\Desktop\Projet-Industriel-ST-Cafe\Projet_Industriel\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\hugoa\Desktop\Projet-Industriel-ST-Cafe\Projet_Industriel\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-15 17:01:43.231
+!MESSAGE Log4j2 initialized with config file C:\Users\hugoa\Desktop\Projet-Industriel-ST-Cafe\Projet_Industriel\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-15 17:01:46.775
+!MESSAGE Started RMI Server, listening on port 41337
