@@ -1,0 +1,9 @@
+../Core/Src/main.cpp:72:16:int _write(int, char*, int)	1
+../Core/Src/main.cpp:84:5:int main()	6
+../Core/Src/main.cpp:193:6:void SystemClock_Config()	4
+../Core/Src/main.cpp:251:13:void MX_I2C1_Init()	4
+../Core/Src/main.cpp:299:13:void MX_USART2_UART_Init()	5
+../Core/Src/main.cpp:347:13:void MX_GPIO_Init()	1
+../Core/Src/main.cpp:381:6:void Error_Handler()	1
+../Core/Src/main.cpp:390:1:void __static_initialization_and_destruction_0()	1
+../Core/Src/main.cpp:390:1:cpp)	1

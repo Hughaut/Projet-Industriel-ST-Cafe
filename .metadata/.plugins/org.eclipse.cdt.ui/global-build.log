@@ -1,0 +1,21 @@
+15:17:13 **** Incremental Build of configuration Debug for project Projet_Industriel ****
+make -j16 all 
+arm-none-eabi-size  Projet_Industriel.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35080	    516	   2356	  37952	   9440	Projet_Industriel.elf
+Finished building: default.size.stdout
+ 
+15:17:19 **** Incremental Build of configuration Debug for project Projet_Industriel ****
+make -j16 all 
+arm-none-eabi-size  Projet_Industriel.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35080	    516	   2356	  37952	   9440	Projet_Industriel.elf
+Finished building: default.size.stdout
+ 
+15:17:35 **** Incremental Build of configuration Debug for project Projet_Industriel ****
+make -j16 all 
+arm-none-eabi-size  Projet_Industriel.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35080	    516	   2356	  37952	   9440	Projet_Industriel.elf
+Finished building: default.size.stdout
+ 

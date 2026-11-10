@@ -24,6 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "DFRobot_HX711_I2C.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -35,7 +36,6 @@
 /* USER CODE BEGIN PD */
 
 // Définition de l'adresse I2C du HX711 (0x64 par défaut)
-#define HX711_I2C_ADDR 0x64
 #define POIDS_ETALONNAGE 200
 #define SEUIL_DETECTION_CALIBRATION 20
 
@@ -69,7 +69,12 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+extern "C" int _write(int fd, char *ptr, int len)
+{
+    (void)fd;
+    HAL_UART_Transmit(&huart2, (uint8_t *)ptr, len, HAL_MAX_DELAY);
+    return len;
+}
 /* USER CODE END 0 */
 
 /**
@@ -106,41 +111,41 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   // Initialisation du capteur
-  if (!MyScale.begin()){
-	  printf("Erreur : Capteur HX711 non detecte\r\n");
-	  while (1) {HAL_Delay(1000);}
-  }
-  printf("HX711 initialise avec succes !\r\n");
+    if (!MyScale.begin()){
+  	  printf("Erreur : Capteur HX711 non detecte\r\n");
+  	  while (1) {HAL_Delay(1000);}
+    }
+    printf("HX711 initialise avec succes !\r\n");
 
-  // Configuration de la calibration du capteur
-  MyScale.setCalWeight(POIDS_ETALONNAGE); // poids de référence
-  MyScale.setThreshold(SEUIL_DETECTION_CALIBRATION); // Seuil de detection
+    // Configuration de la calibration du capteur
+    MyScale.setCalWeight(POIDS_ETALONNAGE); // poids de référence
+    MyScale.setThreshold(SEUIL_DETECTION_CALIBRATION); // Seuil de detection
 
-  // Tare
-  MyScale.peel();
-  HAL_Delay(500); // Petite attente pour laisser du temps au capteur
+    // Tare
+    MyScale.peel();
+    HAL_Delay(500); // Petite attente pour laisser du temps au capteur
 
-  // Calibration
-  printf("Placez un objet de %d\r\n", POIDS_ETALONNAGE);
-  MyScale.enableCal();
+    // Calibration
+    printf("Placez un objet de %d\r\n", POIDS_ETALONNAGE);
+    MyScale.enableCal();
 
-  uint32_t startTime = HAL_GetTick();
-  while (!MyScale.getCalFlag()) {
-	  HAL_Delay(1000);
-	  if ((HAL_GetTick() - startTime) > 7000) {
-		  printf("Echec de la calibration !\r\n");
-		  break;
-	  }
-  }
+    uint32_t startTime = HAL_GetTick();
+    while (!MyScale.getCalFlag()) {
+  	  HAL_Delay(1000);
+  	  if ((HAL_GetTick() - startTime) > 7000) {
+  		  printf("Echec de la calibration !\r\n");
+  		  break;
+  	  }
+    }
 
-  // Sauvegarde de la valeur de calibration
-  float calibrationValue = MyScale.getCalibration();
-  if (calibrationValue > 100) {	// 100 valeur arbitraire à verifier
-	  MyScale.setCalibration(calibrationValue);
-	  printf("Calibration terminee. Valeur de calibration : %f\r\n", calibrationValue);
-  } else {
-	  printf("Erreur : Aucune calibration. \r\n");
-  }
+    // Sauvegarde de la valeur de calibration
+    float calibrationValue = MyScale.getCalibration();
+    if (calibrationValue > 100) {	// 100 valeur arbitraire à verifier
+    	MyScale.setCalibration(calibrationValue);
+  	  	printf("Calibration terminee. Valeur de calibration : %f\r\n", calibrationValue);
+    } else {
+    	printf("Erreur : Aucune calibration. \r\n");
+    }
 
   /* USER CODE END 2 */
 
@@ -169,10 +174,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	// Test de la balance
-	float weight = MyScale.readWeight(20); // moyenne sur 20 valeurs
-	printf("Poids : %f\r\n", weight);
-	HAL_Delay(1000);
+	  // Test de la balance
+	  float weight = MyScale.readWeight(20); // moyenne sur 20 valeurs
+	  printf("Poids : %f\r\n", weight);
+	  HAL_Delay(1000);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
