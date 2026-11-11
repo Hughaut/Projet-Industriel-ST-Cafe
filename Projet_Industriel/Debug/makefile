@@ -85,8 +85,8 @@ all: main-build
 main-build: Projet_Industriel.elf secondary-outputs
 
 # Tool invocations
-Projet_Industriel.elf Projet_Industriel.map: $(OBJS) $(USER_OBJS) C:\Users\hugoa\Desktop\Test\Projet_Industriel\STM32WBA65RIVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "Projet_Industriel.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\hugoa\Desktop\Test\Projet_Industriel\STM32WBA65RIVX_FLASH.ld" -Wl,-Map="Projet_Industriel.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Projet_Industriel.elf Projet_Industriel.map: $(OBJS) $(USER_OBJS) C:\Users\hugoa\Desktop\Projet-Industriel-ST-Cafe\Projet_Industriel\STM32WBA65RIVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "Projet_Industriel.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\hugoa\Desktop\Projet-Industriel-ST-Cafe\Projet_Industriel\STM32WBA65RIVX_FLASH.ld" -Wl,-Map="Projet_Industriel.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

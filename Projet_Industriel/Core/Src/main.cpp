@@ -39,6 +39,8 @@
 #define POIDS_ETALONNAGE 200
 #define SEUIL_DETECTION_CALIBRATION 20
 
+#define CALIBRATION_VALUE  1987.430054f
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -69,6 +71,8 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+// Lignes pour la lecture dans le terminal
 extern "C" int _write(int fd, char *ptr, int len)
 {
     (void)fd;
@@ -110,6 +114,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
+
   // Initialisation du capteur
     if (!MyScale.begin()){
   	  printf("Erreur : Capteur HX711 non detecte\r\n");
@@ -117,6 +122,8 @@ int main(void)
     }
     printf("HX711 initialise avec succes !\r\n");
 
+    // Calibration effectuée donc plus besoin de ces lignes
+    /*
     // Configuration de la calibration du capteur
     MyScale.setCalWeight(POIDS_ETALONNAGE); // poids de référence
     MyScale.setThreshold(SEUIL_DETECTION_CALIBRATION); // Seuil de detection
@@ -145,7 +152,17 @@ int main(void)
   	  	printf("Calibration terminee. Valeur de calibration : %f\r\n", calibrationValue);
     } else {
     	printf("Erreur : Aucune calibration. \r\n");
-    }
+    }*/
+
+    // Calibration fixe
+    MyScale.setCalibration(CALIBRATION_VALUE);
+
+    // Tare
+    printf("La balance doit etre vide");
+    HAL_Delay(1000);
+    MyScale.peel();
+    HAL_Delay(500);
+    printf("Tare effectuee");
 
   /* USER CODE END 2 */
 

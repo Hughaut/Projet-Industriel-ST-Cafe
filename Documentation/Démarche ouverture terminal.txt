@@ -1,0 +1,13 @@
+Branchement balance :
+	- SCL (bleu) sur PB2, broche 3 de CN4
+	- SDA (vert) sur PB1, broche 5 de CN4
+	- 5V, broche 18 de CN3
+	- GND, broche 20 de CN3
+
+Ouvrir le gestionnaire de périphériques, trouver sur quel port COM est le : STMicroelectronics STLink Virtual Port 2
+
+Ouvrir un terminal et coller les lignes suivantes (ici port COM utilisé : COM7) :
+
+$p = New-Object System.IO.Ports.SerialPort COM7,9600,None,8,one
+$p.Open()
+while ($true) { Write-Host -NoNewline $p.ReadExisting(); Start-Sleep -Milliseconds 100 }
