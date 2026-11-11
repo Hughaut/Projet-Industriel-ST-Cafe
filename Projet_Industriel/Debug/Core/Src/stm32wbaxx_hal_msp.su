@@ -1,0 +1,5 @@
+../Core/Src/stm32wbaxx_hal_msp.c:62:6:HAL_MspInit	16	static
+../Core/Src/stm32wbaxx_hal_msp.c:84:6:HAL_I2C_MspInit	136	static
+../Core/Src/stm32wbaxx_hal_msp.c:131:6:HAL_I2C_MspDeInit	16	static
+../Core/Src/stm32wbaxx_hal_msp.c:162:6:HAL_UART_MspInit	144	static
+../Core/Src/stm32wbaxx_hal_msp.c:220:6:HAL_UART_MspDeInit	16	static

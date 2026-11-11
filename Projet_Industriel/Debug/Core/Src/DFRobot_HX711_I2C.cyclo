@@ -1,0 +1,15 @@
+../Core/Src/DFRobot_HX711_I2C.cpp:14:1:DFRobot_HX711_I2C::DFRobot_HX711_I2C(I2C_HandleTypeDef*, uint8_t)	1
+../Core/Src/DFRobot_HX711_I2C.cpp:22:5:int DFRobot_HX711_I2C::begin()	2
+../Core/Src/DFRobot_HX711_I2C.cpp:34:7:float DFRobot_HX711_I2C::readWeight(uint8_t)	3
+../Core/Src/DFRobot_HX711_I2C.cpp:47:6:bool DFRobot_HX711_I2C::getCalFlag()	1
+../Core/Src/DFRobot_HX711_I2C.cpp:52:6:void DFRobot_HX711_I2C::enableCal()	1
+../Core/Src/DFRobot_HX711_I2C.cpp:58:6:void DFRobot_HX711_I2C::peel()	1
+../Core/Src/DFRobot_HX711_I2C.cpp:65:6:long int DFRobot_HX711_I2C::average(uint8_t)	3
+../Core/Src/DFRobot_HX711_I2C.cpp:75:7:float DFRobot_HX711_I2C::getCalibration()	1
+../Core/Src/DFRobot_HX711_I2C.cpp:88:6:void DFRobot_HX711_I2C::setCalibration(float)	1
+../Core/Src/DFRobot_HX711_I2C.cpp:93:9:uint8_t DFRobot_HX711_I2C::peelFlag()	3
+../Core/Src/DFRobot_HX711_I2C.cpp:103:6:long int DFRobot_HX711_I2C::getValue()	2
+../Core/Src/DFRobot_HX711_I2C.cpp:117:6:void DFRobot_HX711_I2C::setThreshold(uint16_t)	1
+../Core/Src/DFRobot_HX711_I2C.cpp:126:6:void DFRobot_HX711_I2C::setCalWeight(uint16_t)	1
+../Core/Src/DFRobot_HX711_I2C.cpp:135:5:int DFRobot_HX711_I2C::readReg(uint8_t, uint8_t*, size_t)	3
+../Core/Src/DFRobot_HX711_I2C.cpp:150:9:uint8_t DFRobot_HX711_I2C::writeReg(uint8_t, const void*, size_t)	3
