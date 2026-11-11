@@ -41,6 +41,8 @@
 
 #define CALIBRATION_VALUE  1987.430054f
 
+#define POIDS_SEUIL 100
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -158,11 +160,11 @@ int main(void)
     MyScale.setCalibration(CALIBRATION_VALUE);
 
     // Tare
-    printf("La balance doit etre vide");
+    printf("La balance doit etre vide \r\n");
     HAL_Delay(1000);
     MyScale.peel();
     HAL_Delay(500);
-    printf("Tare effectuee");
+    printf("Tare effectuee \r\n");
 
   /* USER CODE END 2 */
 
@@ -194,7 +196,14 @@ int main(void)
 	  // Test de la balance
 	  float weight = MyScale.readWeight(20); // moyenne sur 20 valeurs
 	  printf("Poids : %f\r\n", weight);
+
+	  // Le delai sera a modifier pour correspondre a l'usage
 	  HAL_Delay(1000);
+
+	  if(weight < POIDS_SEUIL){
+		  // Partie a modifier pour envoyer une alerte
+		  printf(" --- Alert plus de cafe --- \r\n");
+	  }
 
     /* USER CODE END WHILE */
 
