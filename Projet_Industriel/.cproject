@@ -23,8 +23,8 @@
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.2018247392" name="Floating-point unit" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.value.fpv5-sp-d16" valueType="enumerated"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.2116515259" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.967500037" name="Board" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" useByScannerDiscovery="false" value="NUCLEO-WBA65RI" valueType="string"/>
-							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.164744222" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.6 || Debug || true || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || NUCLEO-WBA65RI || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Core/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc/Legacy | ../Drivers/BSP/STM32WBAxx_Nucleo | ../Drivers/CMSIS/Device/ST/STM32WBAxx/Include | ../Drivers/CMSIS/Include ||  ||  || USE_NUCLEO_64 | USE_HAL_DRIVER | STM32WBA65xx ||  || Drivers | Core/Startup | Core ||  ||  || ${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None ||  ||  ||  || ::" valueType="string"/>
-							<option id="com.st.stm32cube.ide.mcu.debug.option.cpuclock.1599209314" name="Cpu clock frequence" superClass="com.st.stm32cube.ide.mcu.debug.option.cpuclock" useByScannerDiscovery="false" value="66" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.164744222" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.6 || Debug || true || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || NUCLEO-WBA65RI || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Core/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc/Legacy | ../Drivers/BSP/STM32WBAxx_Nucleo | ../Drivers/CMSIS/Device/ST/STM32WBAxx/Include | ../Drivers/CMSIS/Include | ../System/Interfaces | ../System/Config | ../System/Config/Log | ../System/Config/LowPower | ../System/Config/Debug_GPIO | ../STM32_WPAN/Target | ../STM32_WPAN/App | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/porting | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/src/shrd_utils/inc | ../Middlewares/ST/STM32_WPAN/zigbee/clusters/se | ../Middlewares/ST/STM32_WPAN/zigbee/include/zgp | ../Middlewares/ST/STM32_WPAN/zigbee/stack | ../Middlewares/ST/STM32_WPAN/zigbee/stack/port | ../Utilities/trace/adv_trace | ../Projects/Common/WPAN/Interfaces | ../Projects/Common/WPAN/Modules | ../Projects/Common/WPAN/Modules/BasicAES | ../Projects/Common/WPAN/Modules/Log | ../Projects/Common/WPAN/Modules/MemoryManager | ../Projects/Common/WPAN/Modules/RTDebug | ../Projects/Common/WPAN/Modules/SerialCmdInterpreter | ../Utilities/misc | ../Utilities/sequencer | ../Utilities/tim_serv | ../Utilities/lpm/tiny_lpm | ../Middlewares/ST/STM32_WPAN | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ieee_15_4_basic | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc | ../Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc | ../Middlewares/ST/STM32_WPAN/mac_802_15_4/core/inc | ../Middlewares/ST/STM32_WPAN/zigbee/include | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/general | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/key | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/se | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/security | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/zd | ../Middlewares/ST/STM32_WPAN/zigbee/stack/port/mac | ../Middlewares/ST/STM32_WPAN/zigbee/stack/port/stm32wba ||  ||  || USE_NUCLEO_64 | USE_HAL_DRIVER | STM32WBA65xx | USE_FULL_LL_DRIVER | PHY_40nm_3_40_a | MAC | MAC_LAYER | DISABLE_RFTS_EXT_EVNT_HNDLR=1 ||  || Utilities | Drivers | STM32_WPAN | Projects | Core/Startup | System | Middlewares | Core ||  || ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib/LinkLayer_802_15_4_V3_0.a | ../Middlewares/ST/STM32_WPAN/mac_802_15_4/lib/wba_mac_lib.a | ../Middlewares/ST/STM32_WPAN/zigbee/stack/ZigBeeProR23_FFD.a | ../Middlewares/ST/STM32_WPAN/zigbee/clusters/ZigBeeClusters.a || ${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None || true ||  ||  || ::" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.debug.option.cpuclock.1599209314" name="Cpu clock frequence" superClass="com.st.stm32cube.ide.mcu.debug.option.cpuclock" useByScannerDiscovery="false" value="32" valueType="string"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat.103673797" name="Use float with printf from newlib-nano (-u _printf_float)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.nanoprintffloat" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.1512808421" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
 							<builder buildPath="${workspace_loc:/Projet_Industriel}/Debug" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.581048974" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
@@ -43,6 +43,11 @@
 									<listOptionValue builtIn="false" value="USE_NUCLEO_64"/>
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
 									<listOptionValue builtIn="false" value="STM32WBA65xx"/>
+									<listOptionValue builtIn="false" value="USE_FULL_LL_DRIVER"/>
+									<listOptionValue builtIn="false" value="PHY_40nm_3_40_a"/>
+									<listOptionValue builtIn="false" value="MAC"/>
+									<listOptionValue builtIn="false" value="MAC_LAYER"/>
+									<listOptionValue builtIn="false" value="DISABLE_RFTS_EXT_EVNT_HNDLR=1"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.960636663" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/Inc"/>
@@ -51,6 +56,47 @@
 									<listOptionValue builtIn="false" value="../Drivers/BSP/STM32WBAxx_Nucleo"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32WBAxx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../System/Interfaces"/>
+									<listOptionValue builtIn="false" value="../System/Config"/>
+									<listOptionValue builtIn="false" value="../System/Config/Log"/>
+									<listOptionValue builtIn="false" value="../System/Config/LowPower"/>
+									<listOptionValue builtIn="false" value="../System/Config/Debug_GPIO"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/Target"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/App"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/porting"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/src/shrd_utils/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zgp"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port"/>
+									<listOptionValue builtIn="false" value="../Utilities/trace/adv_trace"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Interfaces"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/BasicAES"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/Log"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/MemoryManager"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/RTDebug"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/SerialCmdInterpreter"/>
+									<listOptionValue builtIn="false" value="../Utilities/misc"/>
+									<listOptionValue builtIn="false" value="../Utilities/sequencer"/>
+									<listOptionValue builtIn="false" value="../Utilities/tim_serv"/>
+									<listOptionValue builtIn="false" value="../Utilities/lpm/tiny_lpm"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ieee_15_4_basic"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/core/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/general"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/key"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/security"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/zd"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/mac"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/stm32wba"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1229493243" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -64,17 +110,76 @@
 									<listOptionValue builtIn="false" value="../Drivers/BSP/STM32WBAxx_Nucleo"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32WBAxx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../System/Interfaces"/>
+									<listOptionValue builtIn="false" value="../System/Config"/>
+									<listOptionValue builtIn="false" value="../System/Config/Log"/>
+									<listOptionValue builtIn="false" value="../System/Config/LowPower"/>
+									<listOptionValue builtIn="false" value="../System/Config/Debug_GPIO"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/Target"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/App"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/porting"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/src/shrd_utils/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zgp"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port"/>
+									<listOptionValue builtIn="false" value="../Utilities/trace/adv_trace"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Interfaces"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/BasicAES"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/Log"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/MemoryManager"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/RTDebug"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/SerialCmdInterpreter"/>
+									<listOptionValue builtIn="false" value="../Utilities/misc"/>
+									<listOptionValue builtIn="false" value="../Utilities/sequencer"/>
+									<listOptionValue builtIn="false" value="../Utilities/tim_serv"/>
+									<listOptionValue builtIn="false" value="../Utilities/lpm/tiny_lpm"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ieee_15_4_basic"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/core/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/general"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/key"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/security"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/zd"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/mac"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/stm32wba"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.117312992" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DEBUG"/>
 									<listOptionValue builtIn="false" value="USE_NUCLEO_64"/>
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
 									<listOptionValue builtIn="false" value="STM32WBA65xx"/>
+									<listOptionValue builtIn="false" value="USE_FULL_LL_DRIVER"/>
+									<listOptionValue builtIn="false" value="PHY_40nm_3_40_a"/>
+									<listOptionValue builtIn="false" value="MAC"/>
+									<listOptionValue builtIn="false" value="MAC_LAYER"/>
+									<listOptionValue builtIn="false" value="DISABLE_RFTS_EXT_EVNT_HNDLR=1"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.787732717" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1282759847" name="MCU/MPU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker">
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.1479718172" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" value="${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld}" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.directories.29449440" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.directories" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.libraries.1759278922" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.libraries" valueType="libs">
+									<listOptionValue builtIn="false" value=":LinkLayer_802_15_4_V3_0.a"/>
+									<listOptionValue builtIn="false" value=":wba_mac_lib.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeProR23_FFD.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeClusters.a"/>
+								</option>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.uselinkergroup.205926323" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.uselinkergroup" value="true" valueType="boolean"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input.12313128" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -83,6 +188,19 @@
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1428499490" name="MCU/MPU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.systemcalls.1132223429" name="System calls" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.systemcalls" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.systemcalls.value.minimalimplementation" valueType="enumerated"/>
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.538545783" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" value="${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld}" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.1441519999" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries.337012843" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries" valueType="libs">
+									<listOptionValue builtIn="false" value=":LinkLayer_802_15_4_V3_0.a"/>
+									<listOptionValue builtIn="false" value=":wba_mac_lib.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeProR23_FFD.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeClusters.a"/>
+								</option>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.uselinkergroup.33635627" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.uselinkergroup" value="true" valueType="boolean"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.1551024826" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -99,7 +217,12 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Projects"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="System"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32_WPAN"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Utilities"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 					</sourceEntries>
 				</configuration>
@@ -128,8 +251,8 @@
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.133510539" name="Floating-point unit" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.value.fpv5-sp-d16" valueType="enumerated"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.540233424" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.1321221046" name="Board" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" useByScannerDiscovery="false" value="NUCLEO-WBA65RI" valueType="string"/>
-							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.625872215" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.6 || Release || false || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || NUCLEO-WBA65RI || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Core/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc/Legacy | ../Drivers/BSP/STM32WBAxx_Nucleo | ../Drivers/CMSIS/Device/ST/STM32WBAxx/Include | ../Drivers/CMSIS/Include ||  ||  || USE_NUCLEO_64 | USE_HAL_DRIVER | STM32WBA65xx ||  || Drivers | Core/Startup | Core ||  ||  || ${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None ||  ||  ||  || ::" valueType="string"/>
-							<option id="com.st.stm32cube.ide.mcu.debug.option.cpuclock.1697598723" name="Cpu clock frequence" superClass="com.st.stm32cube.ide.mcu.debug.option.cpuclock" useByScannerDiscovery="false" value="66" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.625872215" name="Defaults" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" useByScannerDiscovery="false" value="com.st.stm32cube.ide.common.services.build.inputs.revA.1.0.6 || Release || false || Executable || com.st.stm32cube.ide.mcu.gnu.managedbuild.option.toolchain.value.workspace || NUCLEO-WBA65RI || 0 || 0 || arm-none-eabi- || ${gnu_tools_for_stm32_compiler_path} || ../Core/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc | ../Drivers/STM32WBAxx_HAL_Driver/Inc/Legacy | ../Drivers/BSP/STM32WBAxx_Nucleo | ../Drivers/CMSIS/Device/ST/STM32WBAxx/Include | ../Drivers/CMSIS/Include | ../System/Interfaces | ../System/Config | ../System/Config/Log | ../System/Config/LowPower | ../System/Config/Debug_GPIO | ../STM32_WPAN/Target | ../STM32_WPAN/App | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/porting | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/src/shrd_utils/inc | ../Middlewares/ST/STM32_WPAN/zigbee/clusters/se | ../Middlewares/ST/STM32_WPAN/zigbee/include/zgp | ../Middlewares/ST/STM32_WPAN/zigbee/stack | ../Middlewares/ST/STM32_WPAN/zigbee/stack/port | ../Utilities/trace/adv_trace | ../Projects/Common/WPAN/Interfaces | ../Projects/Common/WPAN/Modules | ../Projects/Common/WPAN/Modules/BasicAES | ../Projects/Common/WPAN/Modules/Log | ../Projects/Common/WPAN/Modules/MemoryManager | ../Projects/Common/WPAN/Modules/RTDebug | ../Projects/Common/WPAN/Modules/SerialCmdInterpreter | ../Utilities/misc | ../Utilities/sequencer | ../Utilities/tim_serv | ../Utilities/lpm/tiny_lpm | ../Middlewares/ST/STM32_WPAN | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ieee_15_4_basic | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files | ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc | ../Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc | ../Middlewares/ST/STM32_WPAN/mac_802_15_4/core/inc | ../Middlewares/ST/STM32_WPAN/zigbee/include | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/general | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/key | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/se | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/security | ../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/zd | ../Middlewares/ST/STM32_WPAN/zigbee/stack/port/mac | ../Middlewares/ST/STM32_WPAN/zigbee/stack/port/stm32wba ||  ||  || USE_NUCLEO_64 | USE_HAL_DRIVER | STM32WBA65xx | USE_FULL_LL_DRIVER | PHY_40nm_3_40_a | MAC | MAC_LAYER | DISABLE_RFTS_EXT_EVNT_HNDLR=1 ||  || Utilities | Drivers | STM32_WPAN | Projects | Core/Startup | System | Middlewares | Core ||  || ../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib/LinkLayer_802_15_4_V3_0.a | ../Middlewares/ST/STM32_WPAN/mac_802_15_4/lib/wba_mac_lib.a | ../Middlewares/ST/STM32_WPAN/zigbee/stack/ZigBeeProR23_FFD.a | ../Middlewares/ST/STM32_WPAN/zigbee/clusters/ZigBeeClusters.a || ${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld} || true || NonSecure ||  || secure_nsclib.o ||  || None || true ||  ||  || ::" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.debug.option.cpuclock.1697598723" name="Cpu clock frequence" superClass="com.st.stm32cube.ide.mcu.debug.option.cpuclock" useByScannerDiscovery="false" value="32" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.693926103" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
 							<builder buildPath="${workspace_loc:/Projet_Industriel}/Release" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.441479121" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.772468128" name="MCU/MPU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
@@ -143,6 +266,11 @@
 									<listOptionValue builtIn="false" value="USE_NUCLEO_64"/>
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
 									<listOptionValue builtIn="false" value="STM32WBA65xx"/>
+									<listOptionValue builtIn="false" value="USE_FULL_LL_DRIVER"/>
+									<listOptionValue builtIn="false" value="PHY_40nm_3_40_a"/>
+									<listOptionValue builtIn="false" value="MAC"/>
+									<listOptionValue builtIn="false" value="MAC_LAYER"/>
+									<listOptionValue builtIn="false" value="DISABLE_RFTS_EXT_EVNT_HNDLR=1"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1503066204" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/Inc"/>
@@ -151,6 +279,47 @@
 									<listOptionValue builtIn="false" value="../Drivers/BSP/STM32WBAxx_Nucleo"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32WBAxx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../System/Interfaces"/>
+									<listOptionValue builtIn="false" value="../System/Config"/>
+									<listOptionValue builtIn="false" value="../System/Config/Log"/>
+									<listOptionValue builtIn="false" value="../System/Config/LowPower"/>
+									<listOptionValue builtIn="false" value="../System/Config/Debug_GPIO"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/Target"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/App"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/porting"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/src/shrd_utils/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zgp"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port"/>
+									<listOptionValue builtIn="false" value="../Utilities/trace/adv_trace"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Interfaces"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/BasicAES"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/Log"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/MemoryManager"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/RTDebug"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/SerialCmdInterpreter"/>
+									<listOptionValue builtIn="false" value="../Utilities/misc"/>
+									<listOptionValue builtIn="false" value="../Utilities/sequencer"/>
+									<listOptionValue builtIn="false" value="../Utilities/tim_serv"/>
+									<listOptionValue builtIn="false" value="../Utilities/lpm/tiny_lpm"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ieee_15_4_basic"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/core/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/general"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/key"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/security"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/zd"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/mac"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/stm32wba"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1269631826" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -164,16 +333,75 @@
 									<listOptionValue builtIn="false" value="../Drivers/BSP/STM32WBAxx_Nucleo"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32WBAxx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../System/Interfaces"/>
+									<listOptionValue builtIn="false" value="../System/Config"/>
+									<listOptionValue builtIn="false" value="../System/Config/Log"/>
+									<listOptionValue builtIn="false" value="../System/Config/LowPower"/>
+									<listOptionValue builtIn="false" value="../System/Config/Debug_GPIO"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/Target"/>
+									<listOptionValue builtIn="false" value="../STM32_WPAN/App"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/porting"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/src/shrd_utils/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zgp"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port"/>
+									<listOptionValue builtIn="false" value="../Utilities/trace/adv_trace"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Interfaces"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/BasicAES"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/Log"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/MemoryManager"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/RTDebug"/>
+									<listOptionValue builtIn="false" value="../Projects/Common/WPAN/Modules/SerialCmdInterpreter"/>
+									<listOptionValue builtIn="false" value="../Utilities/misc"/>
+									<listOptionValue builtIn="false" value="../Utilities/sequencer"/>
+									<listOptionValue builtIn="false" value="../Utilities/tim_serv"/>
+									<listOptionValue builtIn="false" value="../Utilities/lpm/tiny_lpm"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ieee_15_4_basic"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/_40nm_reg_files"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ot_inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/core/inc"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/general"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/key"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/se"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/security"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/include/zcl/zd"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/mac"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack/port/stm32wba"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.497908546" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="USE_NUCLEO_64"/>
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
 									<listOptionValue builtIn="false" value="STM32WBA65xx"/>
+									<listOptionValue builtIn="false" value="USE_FULL_LL_DRIVER"/>
+									<listOptionValue builtIn="false" value="PHY_40nm_3_40_a"/>
+									<listOptionValue builtIn="false" value="MAC"/>
+									<listOptionValue builtIn="false" value="MAC_LAYER"/>
+									<listOptionValue builtIn="false" value="DISABLE_RFTS_EXT_EVNT_HNDLR=1"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1798625172" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1105642217" name="MCU/MPU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker">
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.1774776384" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" value="${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld}" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.directories.478595461" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.directories" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.libraries.669946714" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.libraries" valueType="libs">
+									<listOptionValue builtIn="false" value=":LinkLayer_802_15_4_V3_0.a"/>
+									<listOptionValue builtIn="false" value=":wba_mac_lib.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeProR23_FFD.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeClusters.a"/>
+								</option>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.uselinkergroup.449965362" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.uselinkergroup" value="true" valueType="boolean"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input.801113251" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -182,6 +410,19 @@
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.478251961" name="MCU/MPU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.systemcalls.4473573" name="System calls" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.systemcalls" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.systemcalls.value.minimalimplementation" valueType="enumerated"/>
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.563123632" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" value="${workspace_loc:/${ProjName}/STM32WBA65RIVX_FLASH.ld}" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.2093190589" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/mac_802_15_4/lib"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/stack"/>
+									<listOptionValue builtIn="false" value="../Middlewares/ST/STM32_WPAN/zigbee/clusters"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries.1432116930" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries" valueType="libs">
+									<listOptionValue builtIn="false" value=":LinkLayer_802_15_4_V3_0.a"/>
+									<listOptionValue builtIn="false" value=":wba_mac_lib.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeProR23_FFD.a"/>
+									<listOptionValue builtIn="false" value=":ZigBeeClusters.a"/>
+								</option>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.uselinkergroup.1348466613" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.uselinkergroup" value="true" valueType="boolean"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.801444036" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -198,7 +439,12 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Projects"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="System"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="STM32_WPAN"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Utilities"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 					</sourceEntries>
 				</configuration>

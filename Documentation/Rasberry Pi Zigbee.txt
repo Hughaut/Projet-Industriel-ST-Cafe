@@ -1,0 +1,39 @@
+Serveur Zigbee2MQTT :
+
+•             C'est lui qui va "convertir" les informations reçues via le Zigbee en messages MQTT à destination du broker (le serveur MQTT).
+
+•             Adresse de la page web :  <adresse rpi>:8080
+
+•             Pas de credential
+
+ 
+
+Serveur Home Assistant :
+
+•             C'est lui qui va permettre de "gérer" les scénarios de pilotage en fonction des infos reçues via MQTT.
+
+•             Adresse de la page web :  <adresse rpi>:8123
+
+•             User:  domotique  ;  Passwd: domotique
+
+ 
+
+User / passwd Rpi :
+
+•             User:  pi
+
+•             Passwd :  raspberry
+
+ 
+
+ 
+
+Pour les conteneurs :
+
+cd /home/pi/domotique
+
+ 
+
+Pour stopper les conteneurs :     podman-compose down
+
+Pour démarrer les conteneurs :  podman-compose up
